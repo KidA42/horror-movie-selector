@@ -27,14 +27,22 @@ function closeModal(){
 
 function renderMovie(){
     const movieObject = getSingleMovieObject()
-    memeModalInner.innerHTML =  `
+    if (movieObject === undefined){
+        memeModalInner.innerHTML =  `
+        <p>No terrifying film with this vibe
+        </p>
+        `
+    memeModal.style.display = 'flex'
+    } else {
+        memeModalInner.innerHTML =  `
         <img 
         class="cat-img" 
         src="./images/${movieObject.image}"
         alt="${movieObject.alt}"
         >
         `
-    memeModal.style.display = 'flex'
+        memeModal.style.display = 'flex'
+    }
 }
 
 function getSingleMovieObject(){
