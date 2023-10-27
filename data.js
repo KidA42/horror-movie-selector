@@ -6,6 +6,12 @@ export const moviesData = [
         alt: "totally killer movie poster",
     },
     {
+        emotionTags: ["time travel"],
+        isTerrifying: false,
+        image: "triangle.webp",
+        alt: "triangle",
+    },
+    {
         emotionTags: ["slasher"],
         isTerrifying: false,
         image: "friday-the-thirteenth.jpg",
@@ -172,5 +178,17 @@ export const moviesData = [
         isTerrifying: true,
         image: "the-shining.webp",
         alt: "the shining",
+    },
+    {
+        emotionTags: ["zombies"],
+        isTerrifying: true,
+        image: "train-to-busan.webp",
+        alt: "train to busan",
+    },
+    {
+        emotionTags: ["zombies"],
+        isTerrifying: false,
+        image: "shaun-of-the-dead.webp",
+        alt: "shaun of the dead",
     },
 ]
