@@ -47,4 +47,16 @@ export const moviesData = [
         image: "interview-with-the-vampire.webp",
         alt: "interview with the vampire poster",
     },
+    {
+        emotionTags: ["don't look up"],
+        isTerrifying: false,
+        image: "no-one-will-save-you.webp",
+        alt: "no one will save you movie poster",
+    },
+    {
+        emotionTags: ["hey what's up with your neighbor?"],
+        isTerrifying: false,
+        image: "disturbia.jpg",
+        alt: "disturbia movie poster",
+    },
 ]
