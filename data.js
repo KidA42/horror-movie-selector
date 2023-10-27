@@ -1,12 +1,12 @@
 export const moviesData = [
     {
-        emotionTags: ["ouch, you slashed me", "travelin' through time"],
+        emotionTags: ["slasher", "time travel"],
         isTerrifying: false,
         image: "totally-killer.webp",
         alt: "totally killer movie poster",
     },
     {
-        emotionTags: ["ouch, you slashed me", "travelin' through time"],
+        emotionTags: ["slasher", "time travel"],
         isTerrifying: false,
         image: "happy-death-day.webp",
         alt: "happy death day movie poster",
@@ -24,7 +24,7 @@ export const moviesData = [
         alt: "in my mother's skin movie poster",
     },
     {
-        emotionTags: ["body horror"],
+        emotionTags: ["body horror", "blood tests"],
         isTerrifying: true,
         image: "alien.webp",
         alt: "alien movie poster",
